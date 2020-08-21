@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="bootstrap.css">
+
+    <title>Todo List Web App</title>
+</head>
+<body>
+    <header>
+        <h1>Pelumi's Todo List</h1>
+    </header>
+    <form>
+        <input type="text" id="todo-input">
+        <button id="todo-add-btn">Add</button>
+        <select name="todo-select" id="todo-select">
+            <option value="all">All</option>
+            <option value="completed">Completed</option>
+            <option value="uncompleted">Uncompleted</option>
+        </select>
+    </form>
+    <div id="todo-container">
+        <ul id="todo-list"></ul>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
